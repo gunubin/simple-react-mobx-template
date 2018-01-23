@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUnusedLocals" : false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "outDir": "./build/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": ["dom", "es2017"],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
